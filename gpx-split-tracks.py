@@ -87,7 +87,6 @@ parser.add_argument(
     )
 args = parser.parse_args()
 
-time.sleep(1)
 try:
     for path in args.gpx_path:
         print "Reading GPX file '%s" % path
